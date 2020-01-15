@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PrismaActivity"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_Panjang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/masukkan_panjang_bangun"
+                    android:inputType="number"
+                    android:paddingBottom="10dp" />
+
+                <EditText
+                    android:id="@+id/et_Lebar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/masukkan_lebar_bangun"
+                    android:inputType="number"
+                    android:paddingBottom="10dp" />
+
+                <EditText
+                    android:id="@+id/et_Tinggi"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dp"
+                    android:hint="@string/masukkan_tinggi_bangun"
+                    android:inputType="number"
+                    android:paddingBottom="10dp" />
+
+
+                <TextView
+                    android:id="@+id/tv_Hasil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/tv_Hasil"
+                    android:textAlignment="center"
+                    android:textSize="50sp" />
+
+                <Button
+                    android:id="@+id/btn_Hitung"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/btn_bg_hitung"
+                    android:text="@string/btn_Hitung"
+                    android:textSize="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

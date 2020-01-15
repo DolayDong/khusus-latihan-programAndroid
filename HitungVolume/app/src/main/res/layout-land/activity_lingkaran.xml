@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_margin="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_Phi"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv_Radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_Radius_tabung"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/et_Radius_Tabung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_radius_tabung"
+                android:inputType="number"/>
+            <TextView
+                android:id="@+id/tv_Tinggi_Lingkaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_Tinggi_tabung"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/et_Tinggi_Tabung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_tinggi_tabung"
+                android:inputType="number"/>
+            <TextView
+                android:id="@+id/tv_volume_Lingkaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_Volume_tabung"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:textAlignment="center"/>
+            <Button
+                android:id="@+id/btn_Lingkaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hitung"
+                android:background="@drawable/btn_bg_hitung"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

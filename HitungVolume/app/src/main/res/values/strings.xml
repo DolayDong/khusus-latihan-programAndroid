@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hitung Volume</string>
+    <string name="btn_Hitung">HITUNG</string>
+    <string name="tv_Panjang">panjang</string>
+    <string name="tv_Lebar">lebar</string>
+    <string name="tv_Tinggi">tinggi</string>
+    <string name="masukkan_tinggi_bangun">masukkan tinggi bangun . .</string>
+    <string name="masukkan_lebar_bangun">masukkan lebar bangun . .</string>
+    <string name="masukkan_panjang_bangun">masukkan panjang bangun . .</string>
+    <string name="tv_Hasil">HASIL</string>
+    <string name="tv_menu">MENU</string>
+    <string name="text_btn_prisma">PRISMA</string>
+    <string name="btn_text_Lingkaran">LINGKARAN</string>
+    <string name="tv_Radius_tabung">Radius</string>
+    <string name="tv_Tinggi_tabung">Tinggi</string>
+    <string name="tv_Volume_tabung">VOLUME</string>
+    <string name="tv_Phi">PHI = 22/7</string>
+    <string name="hint_Tinggi_tabung">masukkan radius lingkaran. .</string>
+    <string name="hint_radius_tabung">masukkan radius tabung . .</string>
+    <string name="hint_tinggi_tabung">masukkan tinggi lingkaran. .</string>
+</resources>

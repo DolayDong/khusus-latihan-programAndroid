@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_layout_main_activity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#95f58c">
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_count_text"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorText_putih" />
+
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_count"
+        android:textSize="30sp"
+        android:background="@drawable/button_bg_count"
+        android:textColor="@color/colorText_Hijau"
+        android:layout_marginBottom="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reset"
+        android:textSize="30sp"
+        android:background="@drawable/button_bg_count"
+        android:textColor="@color/colorText_Hijau"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

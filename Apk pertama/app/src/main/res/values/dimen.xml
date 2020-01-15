@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ukuran_font_default">200sp</dimen>
+    <dimen name="ukuran_font_angka_100_lebih">100sp</dimen>
+    <dimen name="ukuran_default_text_tv_count_land">70sp</dimen>
+
+</resources>
